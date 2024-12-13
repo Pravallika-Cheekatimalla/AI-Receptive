@@ -14,8 +14,10 @@ Welcome to the **Movie Recommender System**, an innovative machine learning solu
 - **Pandas & NumPy**: Streamlining data handling and numerical computations.
 - **Matplotlib & Seaborn**: Creating impactful visualizations.
 - **Scikit-learn**: Driving the machine learning models.
+- **Streamlit**: Enabling an interactive web application for real-time recommendations.
 
 ## 🚀 Quick Start Guide
+### Setting Up
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/Pravallika-Cheekatimalla/AI-Receptive.git
@@ -28,13 +30,21 @@ Welcome to the **Movie Recommender System**, an innovative machine learning solu
    ```bash
    pip install -r requirements.txt
    ```
-   _Note: Ensure all required libraries like `pandas`, `numpy`, `matplotlib`, and `scikit-learn` are installed._
+   _Note: Ensure all required libraries like `pandas`, `numpy`, `matplotlib`, `scikit-learn`, and `streamlit` are installed._
 
-4. **Run the Jupyter Notebook:**
+### Running the Application
+1. **Run the Streamlit App:**
+   ```bash
+   streamlit run app.py
+   ```
+2. Open the generated local URL in your browser to interact with the app.
+
+### Using the Jupyter Notebook
+1. **Open the Jupyter Notebook:**
    ```bash
    jupyter notebook "Pravali_Movie Recommender System.ipynb"
    ```
-5. **Follow the Steps in the Notebook:**
+2. **Follow the Steps in the Notebook:**
    - Load and preprocess the dataset.
    - Train the recommendation models.
    - Analyze performance metrics.
@@ -42,6 +52,7 @@ Welcome to the **Movie Recommender System**, an innovative machine learning solu
 
 ## 📁 Project Layout
 - **`Pravali_Movie Recommender System.ipynb`**: Contains the complete implementation.
+- **`app.py`**: Streamlit application script for real-time interaction.
 - **`Data/`**: Folder to store datasets (if applicable).
 - **`Images/`**: Directory for saving generated visualizations.
 - **`README.md`**: Comprehensive project documentation.
@@ -52,15 +63,12 @@ Welcome to the **Movie Recommender System**, an innovative machine learning solu
 - **Personalized Recommendations**: A curated list of movies for users based on their preferences.
 
 ## 🔮 Future Vision
-- **Real-Time Recommendations**: Develop a web or mobile app for instant movie suggestions.
+- **Real-Time Recommendations**: Enhance the Streamlit app with additional features and live updates.
 - **Deep Learning Integration**: Enhance accuracy with advanced neural networks.
 - **Dataset Expansion**: Include richer metadata, such as genres, cast, and user demographics.
 
 ## 👩‍💻 Contributors
 - **Pravallika Cheekatimalla**: Creator and lead developer of the project.
-
-## 📜 License
-This project is available under the [MIT License](LICENSE). Feel free to explore, modify, and share with proper attribution.
 
 ## 🙌 Acknowledgments
 - Gratitude to online resources and datasets that made this project possible.
